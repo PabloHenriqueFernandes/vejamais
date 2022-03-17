@@ -24,7 +24,6 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"
     />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <style></style>
   </head>
   <body class="body_start">
@@ -37,7 +36,7 @@
             <div id="example">Ex: ação, comédia, breaking bad, narcos</div>
           </div>
           <div class="head_icon">
-            <i class="bi bi-search"></i>
+            <img src="lupa.png" alt="lupa" />
           </div>
         </div>
         <nav class="main_header_bot">
@@ -75,23 +74,53 @@
         <section class="items" id="most_popular_movies">
           <h1>Filmes Mais Populares</h1>
           <ul class="wrapper_items" id="wrapper_items_movies">
-            <li class="box_item">
-              <img
-                class="rounded"
-                src="imagem/filmes/encantofilme.jpg"
-                alt="#alive"
-              />
-              <span class="imdb">7,3</span>
-              <h2>Encanto</h2>
+            <li class="box_item" id="movie_one">
+              <a href="encanto.html">
+                <img
+                  class="rounded"
+                  src="imagem/filmes/encantofilme.jpeg"
+                  alt="#alive"
+                />
+                <span class="imdb">7,3</span>
+                <h2>Encanto</h2>
+                <div class="animation" id="animation_one">
+                  <video muted loop autoplay>
+                    <source
+                      src="https://br.vid.web.acsta.net/uk/medias/nmedia/55/21/07/08/21/19564910_hd_013.mp4"
+                    />
+                  </video>
+                  <h3>Encanto</h3>
+                  <p>
+                    <span class="age_group">Livre</span> &nbsp 2021 -
+                    Infantil/Musical - 1h49min
+                  </p>
+                  <span class="imdb">7,3</span>
+                </div>
+              </a>
             </li>
-            <li class="box_item">
-              <img
-                class="rounded"
-                src="imagem/filmes/alivefilme.jpg"
-                alt="#alive"
-              />
-              <span class="imdb">6,3</span>
-              <h2>#Alive</h2>
+            <li class="box_item" id="movie_two">
+              <a href="alive.html">
+                <img
+                  class="rounded"
+                  src="imagem/filmes/alivefilme.jpg"
+                  alt="#alive"
+                />
+                <span class="imdb">6,3</span>
+                <h2>#Alive</h2>
+                <div class="animation" id="animation_two">
+                  <video muted loop autoplay>
+                    <source
+                      src="https://br.vid.web.acsta.net/uk/medias/nmedia/55/20/09/10/21/19564060_hd_013.mp4"
+                    />
+                  </video>
+                  <h3>#Alive</h3>
+                  <p>
+                    <span class="age_group">16Anos</span> &nbsp 2020 -
+                    Drama/Ação/Terror - 1h38min
+                  </p>
+                  <span class="imdb">6,3</span>
+                </div>
+              </a>
             </li>
             <li class="box_item">
               <img
@@ -109,7 +138,7 @@
                 alt="#alive"
               />
               <span class="imdb">5,5</span>
-              <h2>Trough my Window</h2>
+              <h2>Through my Window</h2>
             </li>
             <li class="box_item">
               <img
@@ -305,47 +334,47 @@
             <li class="box_item">
               <img
                 class="rounded"
-                src="imagem/filmes/12homenseumasentença.jpg"
+                src="imagem/filmes/alistadeschindler.jpg"
                 alt="#alive"
               />
-              <span class="imdb">9,0</span>
-              <h2>12 Homens e uma sentença</h2>
+              <span class="imdb">8.9</span>
+              <h2>A Lista de Schindler</h2>
             </li>
             <li class="box_item">
               <img
                 class="rounded"
-                src="imagem/filmes/12homenseumasentença.jpg"
+                src="imagem/filmes/senhordosanéisoretornodorei.jpg"
                 alt="#alive"
               />
-              <span class="imdb">9,0</span>
-              <h2>12 Homens e uma sentença</h2>
+              <span class="imdb">8,9</span>
+              <h2>Senhor dos Anéis: O Retorno do Rei</h2>
             </li>
             <li class="box_item">
               <img
                 class="rounded"
-                src="imagem/filmes/12homenseumasentença.jpg"
+                src="imagem/filmes/pulpfiction.jpg"
                 alt="#alive"
               />
-              <span class="imdb">9,0</span>
-              <h2>12 Homens e uma sentença</h2>
+              <span class="imdb">8,8</span>
+              <h2>Pulp Fiction</h2>
             </li>
             <li class="box_item">
               <img
                 class="rounded"
-                src="imagem/filmes/12homenseumasentença.jpg"
+                src="imagem/filmes/treshomensemconflito.jpg"
                 alt="#alive"
               />
-              <span class="imdb">9,0</span>
-              <h2>12 Homens e uma sentença</h2>
+              <span class="imdb">8,8</span>
+              <h2>Três Homens em Conflito</h2>
             </li>
             <li class="box_item">
               <img
                 class="rounded"
-                src="imagem/filmes/12homenseumasentença.jpg"
+                src="imagem/filmes/senhordosaneisasociedadedoanel.jpg"
                 alt="#alive"
               />
-              <span class="imdb">9,0</span>
-              <h2>12 Homens e uma sentença</h2>
+              <span class="imdb">8,8</span>
+              <h2>O Senhor dos Anéis: A Sociedade Do Anel</h2>
             </li>
           </ul>
         </section>
